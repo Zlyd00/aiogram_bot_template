@@ -1,0 +1,4 @@
+asyncpg==0.29.0
+aiogram==3.3.0
+environs==10.0.0
+betterlogging==0.2.1
