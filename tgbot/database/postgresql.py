@@ -23,3 +23,6 @@ class Database:
             f'{item} = ${num}' for num, item in enumerate(parameters, start=1)
         ])
         return sql, tuple(parameters.values())
+
+
+db = Database(loop=asyncio.get_event_loop())
